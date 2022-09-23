@@ -1,14 +1,14 @@
-const mathJax = document.createElement('script');
+var mathJax = document.createElement('script');
 mathJax.setAttribute('src', 'https://www.gstatic.com/firebasejs/9.1.3/firebase-app-compat.js');
 mathJax.addEventListener('load', () => callback());
 document.head.appendChild(mathJax);
 
-const mathJax = document.createElement('script');
+mathJax = document.createElement('script');
 mathJax.setAttribute('src', 'https://www.gstatic.com/firebasejs/9.1.3/firebase-auth-compat.js');
 mathJax.addEventListener('load', () => callback());
 document.head.appendChild(mathJax);
 
-const mathJax = document.createElement('script');
+mathJax = document.createElement('script');
 mathJax.setAttribute('src', 'https://www.gstatic.com/firebasejs/ui/6.0.1/firebase-ui-auth.js');
 mathJax.addEventListener('load', () => callback());
 document.head.appendChild(mathJax);
