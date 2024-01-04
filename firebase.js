@@ -43,7 +43,7 @@ ui.start('#firebaseui-auth-container', {
             recaptchaParameters: {
                 type: 'image', // 'audio' or 'image'
                 // type: 'audio', // 'audio' or 'image'
-                size: 'invisible', // 'invisible' or 'compact' or 'normal'
+                size: 'normal', // 'invisible' or 'compact' or 'normal'
                 // size: 'normal', // 'invisible' or 'compact' or 'normal'
                 badge: 'bottomleft' //' bottomright' or 'inline' applies to invisible.
             },
